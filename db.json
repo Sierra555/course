@@ -1,0 +1,63 @@
+{
+  "courses": [
+    {
+      "name": "Half Stack application development",
+      "id": "unique-id-1",
+      "parts": [
+        {
+          "name": "Fundamentals of React",
+          "exercises": 10,
+          "id": "unique-id-2"
+        },
+        {
+          "name": "Using props to pass data",
+          "exercises": 7,
+          "id": "unique-id-3"
+        },
+        {
+          "name": "State of a component",
+          "exercises": 14,
+          "id": "unique-id-4"
+        },
+        {
+          "name": "Redux",
+          "exercises": 11,
+          "id": "unique-id-5"
+        }
+      ]
+    },
+    {
+      "name": "Node.js",
+      "id": "unique-id-6",
+      "parts": [
+        {
+          "name": "Routing",
+          "exercises": 3,
+          "id": "unique-id-7"
+        },
+        {
+          "name": "Middlewares",
+          "exercises": 7,
+          "id": "unique-id-8"
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "96aad372-146b-46c2-805a-f823b5b5608b",
+      "name": "eee",
+      "number": 3444
+    },
+    {
+      "id": "3573fd04-1098-46a4-bd41-35e57dffb577",
+      "name": "eddd",
+      "number": "dd"
+    },
+    {
+      "name": "Arto Hellas",
+      "number": "111",
+      "id": "32d1b706-bd87-4a36-b93c-225adeac0349"
+    }
+  ]
+}
