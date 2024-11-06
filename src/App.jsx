@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Country from './components/Country';
 import Course from "./modules/Course";
 import Phonebook from "./modules/Phonebook";
 import { getData } from "./services/notes";
@@ -35,6 +36,7 @@ const App = () => {
     <>
       {courses.map(course => <Course key={course.id} nextCourse={course} />)}
       <Phonebook persons={persons} hostUrl={personsUrl} />
+      <Country />
     </>
   );
 }
